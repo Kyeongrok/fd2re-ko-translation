@@ -1,0 +1,33 @@
+# Generated artifacts (rebuild with source/build_xunity.py)
+source/translations_phase1.json
+source/translations_phase2.json
+
+# XUnity backup files
+*.bak
+
+# XUnity runtime / cache (don't commit)
+BepInEx/cache/
+BepInEx/LogOutput.log
+BepInEx/Translation/ko/RedirectedResources/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Local-only extraction outputs (game-derived, copyright gray zone)
+extracted/
+strings_dump/
+all_chinese.json
+all_chinese_flat.txt
+master_zh.json
+dll_strings.json
+assets_strings.json
+missing_strings.json
