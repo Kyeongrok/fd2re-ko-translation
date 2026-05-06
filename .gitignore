@@ -22,6 +22,9 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Release artifacts
+*.zip
+
 # Local-only extraction outputs (game-derived, copyright gray zone)
 extracted/
 strings_dump/
